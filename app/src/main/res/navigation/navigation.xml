@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentIni2">
+
+    <fragment
+        android:id="@+id/fragmentIni2"
+        android:name="com.marc.spinnerfragments.FragmentIni"
+        android:label="FragmentIni"
+        tools:layout="@layout/fragment_ini">
+        <action
+            android:id="@+id/action_fragmentIni2_to_fragmentLlistat2"
+            app:destination="@id/fragmentLlistat2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLlistat2"
+        android:name="com.marc.spinnerfragments.FragmentLlistat"
+        android:label="FragmentLlistat"
+        tools:layout="@layout/fragment_llistat"/>
+</navigation>

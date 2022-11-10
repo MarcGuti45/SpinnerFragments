@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@+id/fragmentLlistat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FragmentLlistat">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/llistat_recycleview" />
+
+    </FrameLayout>
+</layout>
