@@ -18,5 +18,21 @@
         android:id="@+id/fragmentLlistat2"
         android:name="com.marc.spinnerfragments.FragmentLlistat"
         android:label="FragmentLlistat"
-        tools:layout="@layout/fragment_llistat"/>
+        tools:layout="@layout/fragment_llistat">
+        <action
+            android:id="@+id/action_fragmentLlistat2_to_fragmentTornar2"
+            app:destination="@id/fragmentTornar2"
+            app:popUpTo="@id/fragmentLlistat2"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTornar2"
+        android:name="com.marc.spinnerfragments.FragmentTornar"
+        android:label="FragmentTornar"
+        tools:layout="@layout/fragment_tornar">
+        <action
+            android:id="@+id/action_fragmentTornar2_to_fragmentLlistat2"
+            app:destination="@id/fragmentLlistat2"
+            app:popUpTo="@id/fragmentIni2" />
+    </fragment>
 </navigation>
